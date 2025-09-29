@@ -11,7 +11,7 @@ const Home = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
-            to="/activities"
+            to="/BookPage"
             className="btn btn-primary btn-lg w-full sm:w-auto"
           >
             🔍 ดูหนังสือ
