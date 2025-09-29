@@ -7,7 +7,7 @@ const createBook = async (bookData) => {
 };
 
 // ดึงข้อมูลกิจกรรมทั้งหมด (GET ไม่มี body data)
-const getAllActivity = async () => {
+const getAllBook = async () => {
   return await api.get(`${API_URL}/`);
 };
 
@@ -15,15 +15,15 @@ const getAllActivity = async () => {
 const getById = async (id) => {
   return await api.get(`${API_URL}/${id}`);
 };
-const updateActivity = async (id, data) => {
+const updateBook = async (id, data) => {
   return await api.put(`${API_URL}/${id}`, data);
 };
 
 const BookService = {
   createBook,
-  getAllActivity,
+  getAllBook,
   getById,
-  updateActivity,
+  updateBook,
 };
 
 export default BookService;
