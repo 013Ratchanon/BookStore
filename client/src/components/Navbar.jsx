@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const menuItems = [
-  { name: "AddBook", url: "/AddBook" },
-  { name: "Book", url: "/BookPage" },
-  { name: "Journal", url: "/" },
-  { name: "Comic", url: "/" },
+  { name: "Book", url: "/AddBook" },
+  { name: "Journal", url: "/Journals" },
+  { name: "Comic", url: "/Comics" },
 ];
 const linkStyle = {
   color: "#bdbdbd",
